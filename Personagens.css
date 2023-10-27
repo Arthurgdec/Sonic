@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+
+    background: #BBBBBB;
+    padding: 20px 0;
+    align-items: center;
+}
+#Logo {width: 40%;}
+
+.Personagens {
+position: relative;
+width: 920px;
+margin: 0 auto;
+
+}
+
+
+nav { 
+position: absolute;
+top: 110px;
+right: 0;
+
+}
+
+nav li {
+
+display: inline;
+margin: 0 0 0 15px;
+}
+
+
+Nav a {
+
+text-transform: uppercase;
+color: black;
+font-size: 25px;
+text-decoration: none;
+
+
+}
+
+nav a:hover {
+    color: #c78c19;
+
+
+
+}
+
+
+.Personagens {
+
+width: 940px;
+margin: 0 auto;
+padding: 50px 0;
+
+}
+
+.Personagens li {
+width: 30%;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+margin: 0 1%;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 20px;
+
+
+
+}
+
+.Personagens a { 
+
+text-decoration: none;
+color: black;
+
+}
+
+.Personagens li:hover {
+
+border-color: #c78c19;
+
+
+}
+
+.Personagens li:active{
+
+border-color: aqua;
+
+}
+
+.Personagens li:hover h2 {
+
+    font-size: 30px;
+}
+
+.Personagens h2 {
+
+font-size: 20px;
+font-weight: bolder;
+margin: 10px 0 0;
+padding: 0 10px;
+text-decoration: none;
+}
+
+.Texto {
+
+    font-size: 18px;
+
+}
+
+footer {
+text-align: center;
+background: url(bg.jpg);
+padding: 30px 0;
+margin: auto;
+
+
+}
+
+.Copyright {
+
+color: white;
+font-size: 13px;
+margin: 20px 0 0 0;
+
+}
+
